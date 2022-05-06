@@ -132,3 +132,42 @@ nav ul li a {
 .action-description {
     text-align: center;
 }
+
+#partner-quotes {
+    background-color: #91D2FB;
+    color: #095789;
+}
+
+.big_blue_light {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.quotes {
+    width: 80%;
+}
+
+.partner {
+    padding-left: 13%;
+    font-weight: bold;
+}
+
+.vecctor {
+    width: 17px;
+    height: 29px;
+}
+
+.big_pink {
+    background-color: #F5119C;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
