@@ -220,9 +220,41 @@ nav ul li a {
     width: 298px;
     height: 258px;
     padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6%;
 }
 
 .rectangle p {
     font-size: 32px;
     color: #FFFFFF;
+}
+
+.big_blue_light2 {
+    background-color: #91D2FB;
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.vbg {
+    display: flex;
+}
+
+.vbg img {
+    width: 35px;
+    height: 35px;
+    margin-top: 30px;
+}
+
+.big_blue_light2 p {
+    font-size: 28px;
+    color: #095789;
+    padding-left: 30%;
+}
+
+.big_blue_light2 span {
+    color: #095789;
+    font-size: 25px;
 }
