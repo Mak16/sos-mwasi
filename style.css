@@ -10,7 +10,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-header {
+.header1 {
     background-image: url(images/african-woman.jpg);
     width: 100%;
     height: 100vh;
@@ -85,7 +85,7 @@ nav ul li a {
     font-size: 46px
 }
 
-.header-content {
+.header-content1 {
     position: absolute;
     left: 5%;
     top: 50%;
@@ -93,18 +93,18 @@ nav ul li a {
     transform: translatey(-50%);
 }
 
-.header-content h1 {
+.header-content1 h1 {
     color: white;
     font-size: 42px;
 }
 
-.header-content p {
+.header-content1 p {
     color: white;
     margin-bottom: 25px;
     padding-top: 30px;
 }
 
-#call-to-action {
+#call-to-action1 {
     background-color: #0096F5;
     color: white;
     display: flex;
@@ -170,4 +170,59 @@ nav ul li a {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.header2 {
+    background-color: #91D2FB;
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+.big_title {
+    font-size: 51px;
+    color: #095789;
+}
+
+.paragraph {
+    font-size: 21px;
+    color: #095789;
+}
+
+.header-content2 {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    width: 40%;
+    transform: translatey(-50%);
+}
+
+#call-to-action2 {
+    background-color: #FFFFFF;
+}
+
+.title {
+    font-size: 40px;
+    color: #036D98;
+    padding-left: 5%;
+}
+
+.type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.rectangle {
+    background-color: #0096F5;
+    width: 298px;
+    height: 258px;
+    padding-bottom: 5%;
+}
+
+.rectangle p {
+    font-size: 32px;
+    color: #FFFFFF;
 }
